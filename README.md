@@ -16,7 +16,8 @@ separate process and loads the ImageMagick library as a separate DLL.
 ## Releases
 
 Each FileSqueeze version that changes a native component has a GitHub release here.
-The release attaches:
+The [release workflow](.github/workflows/release.yml) builds every release from its tag,
+and the workflow log shows the full build. The release attaches:
 
 - `ffmpeg-…-win64-lgpl-filesqueeze.zip`: the exact binaries in the app package, with licences,
   `build-configuration.txt`, `toolchain.txt` and `SHA256SUMS`;
